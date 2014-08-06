@@ -1,5 +1,4 @@
 import sublime, sublime_plugin
-from .common import *
 
 class SideBarNavigator(sublime_plugin.EventListener):
     def on_activated(self, view):
